@@ -1,0 +1,9 @@
+html{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.header-item{
+    display: inline;
+}

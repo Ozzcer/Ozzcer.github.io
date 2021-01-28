@@ -1,9 +1,9 @@
-html{
+body{
     background-color: rgb(17, 17, 17);
-    color: white;
+    color: whitesmoke;
     font-family: "Poppins", Arial, sans-serif;
 }
 
-.header-item{
-    display: inline;
+#nav{
+    background-color: rgb(17, 17, 17) !important;
 }

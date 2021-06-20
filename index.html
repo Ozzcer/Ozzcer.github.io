@@ -23,24 +23,24 @@
   <body>
     <div class="sticky-top" id="header">
       <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-        <ul>
-          <li>
-            <a href="#resume" class="nav-link">RESUME</a>
-          </li>
-          <li>
-            <a href="#portfolio" class="nav-link">PORTFOLIO</a>
-          </li>
-          <li>
-            <a href="#contact" class="nav-link">CONTACT</a>
-          </li>
-          <li>
-            <a href="#about" class="nav-link">ABOUT ME</a>
-          </li>
-        </ul>
+        <div class="text-center">
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-dark">
+              <a href="#resume" class="header-nav-link">RESUME</a>
+            </li>
+            <li class="list-group-item list-group-item-dark">
+              <a href="#portfolio" class="header-nav-link">PORTFOLIO</a>
+            </li>
+            <li class="list-group-item list-group-item-dark">
+              <a href="#contact" class="header-nav-link">CONTACT</a>
+            </li>
+            <li class="list-group-item list-group-item-dark">
+              <a href="#about" class="header-nav-link">ABOUT ME</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <nav class="navbar navbar-dark bg-dark" id="nav">
+      <nav class="navbar navbar-dark" id="nav">
         <a class="navbar-brand" href="#">
           <img
             src="logo.png"
@@ -64,7 +64,30 @@
         </button>
       </nav>
     </div>
-    <section id="landing"></section>
+    <section id="landing">
+      <div
+        id="landing-container"
+        class="d-flex flex-column justify-content-between"
+      >
+        <div>
+          <pre id="typewriter">
+<span class="code-keyword">public class</span> <span class="code-class-name">Oz</span> : <span class="code-class-name">Developer</span>
+<span class="code-bracket">{</span>
+  <span class="code-keyword">public string</span> <span class="code-variable">firstName</span> <span class="code-keyword">=</span> "<span class="code-value">Oliver</span>";
+  <span class="code-keyword">public string</span> <span class="code-variable">lastName</span> <span class="code-keyword">=</span> "<span class="code-value">Harrison</span>";
+  <span class="code-keyword">public string[]</span> <span class="code-variable">roles</span> <span class="code-keyword">=</span> <span class="code-keyword">new string[]</span>
+  <span class="code-bracket">{</span>
+    "<span class="code-value">Full Stack Web Developer</span>",
+    "<span class="code-value">Systems Architect</span>",
+    "<span class="code-value">Video Game Developer</span>",
+  <span class="code-bracket">}</span>;
+<span class="code-bracket">}</span> </pre>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button id="more-btn">More</button>
+        </div>
+      </div>
+    </section>
     <section id="resume"></section>
     <section id="portfolio"></section>
     <section id="contact"></section>

@@ -25,7 +25,8 @@ function displaySubstanceData(substance) {
 
   const title = document.createElement("h4");
   title.classList.add("h4");
-  title.textContent = substance.name;
+  title.innerText =
+    substance.name.charAt(0).toUpperCase() + substance.name.slice(1);
   infoContainer.appendChild(title);
 
   const linksList = document.createElement("ul");
@@ -36,8 +37,11 @@ function displaySubstanceData(substance) {
     let linkListItem = document.createElement("li");
     linkListItem.classList.add("list-group-item");
     linkListItem.classList.add("text-white", "bg-white");
+    console.log(substance.links[link]);
     linkListItem.innerHTML =
-      "<a href='substance.links[link]'>" +
+      "<a href='" +
+      substance.links[link] +
+      "'>" +
       link +
       " | " +
       substance.links[link] +
@@ -46,18 +50,6 @@ function displaySubstanceData(substance) {
   }
 
   infoContainer.appendChild(linksList);
-
-  // const table = document.createElement("table");
-  // table.classList.add("table");
-  // const thead = document.createElement("thead");
-  // const tbody = document.createElement("tbody");
-  // const theadRow = document.createElement("tr");
-
-  // table.appendChild(thead);
-  // table.appendChild(tbody);
-  // thead.appendChild(theadRow);
-
-  // infoContainer.appendChild(table);
 }
 
 function createTableStructure(tableTitle) {

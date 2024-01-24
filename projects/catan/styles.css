@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+  background-color: #131516;
+  color: #e8e6e3;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+ol, ul, menu {
+  list-style: none;
+}
+
+img {
+  max-inline-size: 100%;
+  max-block-size: 100%;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  min-width: 0;
+}
+
+h1 {
+  color: green;
+}

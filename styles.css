@@ -7,6 +7,8 @@
   justify-content: center;
   padding: 5vh 0;
   min-height: 100vh;
+  width: 90%;
+  margin: auto;
 }
 
 .column {
@@ -14,6 +16,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#landing {
+  width: 100%;
 }
 
 .landing-container {
@@ -98,7 +104,6 @@
 }
 
 #about-container {
-  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -119,4 +124,15 @@
   #profile-image {
     margin-right: 1rem;
   }
+}
+
+#projects-container {
+  display: grid;
+  width: 100%;
+  max-width: 848px;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-auto-rows: auto;
+  justify-content: space-around;
+  column-gap: 16px;
+  row-gap: 16px;
 }

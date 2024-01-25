@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 5vh 0;
   min-height: 100vh;
 }
 
@@ -12,12 +13,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.title-container {
-  min-width: 410px;
-  gap: 1rem;
-  padding: 1rem;
 }
 
 .landing-container {
@@ -29,6 +24,13 @@
   height: 80%;
 }
 
+.title-container {
+  min-width: 410px;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -39,6 +41,16 @@
   margin: 0;
   min-width: 250px;
   border-top: 0.3rem solid #e8e6e3;
+}
+
+@media screen and (max-width: 410px) {
+  .menu {
+    min-width: 60%;
+  }
+
+  .title-container {
+    min-width: 60%;
+  }
 }
 
 @media screen and (min-width: 660px) {
@@ -60,7 +72,7 @@
   line-height: 10rem;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 659px) {
   .desktop-only {
     display: none;
   }
@@ -84,4 +96,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#about-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+#profile-image {
+  border-radius: 1rem;
+  float: left;
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  #about-container {
+    display: block;
+  }
+
+  #profile-image {  
+    margin-right: 1rem;
+  }
 }

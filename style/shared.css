@@ -40,4 +40,5 @@ h1, h2, h3, h4, p {
 img {
   max-inline-size: 100%;
   max-block-size: 100%;
+  color: white;
 }

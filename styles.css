@@ -1,4 +1,5 @@
-@import url('/shared.css');
+@import url('/style/shared.css');
+@import url('/style/flip-card.css');
 
 .page {
   display: flex;
@@ -30,7 +31,6 @@
   padding: 1rem;
 }
 
-
 .menu {
   display: flex;
   flex-direction: column;
@@ -60,7 +60,6 @@
     align-items: flex-start;
   }
 }
-
 
 .menu-link {
   font-size: 3rem;
@@ -117,7 +116,7 @@
     display: block;
   }
 
-  #profile-image {  
+  #profile-image {
     margin-right: 1rem;
   }
 }

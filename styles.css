@@ -65,11 +65,13 @@
 .menu-link {
   font-size: 3rem;
   text-decoration: none;
+  font-style: italic;
 }
 
 .title {
   font-size: 10rem;
   line-height: 10rem;
+  font-family: Ubuntu, Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 @media screen and (max-width: 659px) {

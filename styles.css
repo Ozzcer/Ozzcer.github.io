@@ -27,7 +27,7 @@
 }
 
 .title-container {
-  min-width: 410px;
+  min-width: 40vw;
   padding: 1rem;
 }
 
@@ -53,11 +53,14 @@
   }
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 497px) {
+  .title-container {
+    align-items: center;
+  }
   .menu {
     border-right: 0.3rem solid #e8e6e3;
     border-top: none;
-    align-items: flex-start;
+    align-items: flex-end;
   }
 }
 
@@ -70,7 +73,11 @@
 .title {
   font-size: 10rem;
   line-height: 10rem;
-  font-family: Ubuntu, Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Ubuntu, Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+  margin-left: -0.5rem;
+  min-width: 60%;
+  text-align: center;
 }
 
 .tag-line {
@@ -78,6 +85,8 @@
   font-style: italic;
   text-align: center;
   margin-bottom: 1rem;
+  min-width: 60%;
+  text-align: center;
 }
 
 .quick-links {
@@ -87,6 +96,8 @@
   flex-direction: row;
   align-items: stretch;
   gap: 1rem;
+  min-width: 60%;
+  justify-content: center;
 }
 
 .quick-link {
@@ -105,19 +116,35 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
   width: 90%;
-  margin: auto;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: center;
+  gap: 1rem;
 }
 
 #profile-image {
-  width: 40vw;
-  height: 40vw;
+  width: 35vw;
+  height: 35vw;
   max-width: 800px;
   max-height: 800px;
   border-radius: 1rem;
-  float: left;
   display: block;
+}
+
+#about-header {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.about-text {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -129,11 +156,8 @@
 
 @media screen and (min-width: 600px) {
   #about-container {
-    display: block;
-  }
-
-  #profile-image {
-    margin-right: 1rem;
+    display: flex;
+    width: 55vw;
   }
 }
 
@@ -147,7 +171,6 @@
   justify-content: center;
 }
 
-
 @media screen and (max-width: 360px) {
   #projects-container {
     grid-template-columns: 1fr;
@@ -158,5 +181,4 @@
     width: 90vw;
     height: 90vw;
   }
-
 }

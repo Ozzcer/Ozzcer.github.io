@@ -1,4 +1,4 @@
-For as long as I can remember I have always needed to know how things work and why that is. 
+
 
 This journey has led me to computer science, where there is a seemingly infinite number of questions with an even larger array of answers. I really got started with computers when trying to fulfill the teenage dream of anyone who has spent too much time behind a keyboard: cracking my school's IT system. 
 
@@ -15,4 +15,4 @@ When it comes to web development, which has been my professional focus over the 
 
 Cybersecurity is the field that currently piques my interest the most. Working in a regulated industry as a full-stack developer (with DevOps / Linux infrastructure responsibilities) means the protection of the integrity and privacy of customer data is paramount. The modern threat landscape is a fast-evolving field and ensuring my systems keep on top of this is an exhilarating challenge. I never really lost that passion for "making computers work in ways they are not supposed to" I developed as a teenager, and would love to continue developing my career in that direction.
 
-When I am not writing code or disassembling hardware I can be found reading Sci-Fi, picking locks, or playing video games.
+When I am not writing code I can be found reading Sci-Fi, picking locks, or playing video games.

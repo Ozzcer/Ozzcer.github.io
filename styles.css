@@ -5,9 +5,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5vh 0;
+  margin: 5vh 0;
   min-height: 100vh;
-  margin: auto;
 }
 
 .column {

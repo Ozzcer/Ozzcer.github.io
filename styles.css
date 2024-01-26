@@ -96,6 +96,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 2rem;
+}
+
+.quick-link img {
+  height: 100%;
+  width: auto;
 }
 
 #about-container {
@@ -103,12 +109,25 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  width: 90%;
+  margin: auto;
 }
 
 #profile-image {
+  width: 40vw;
+  height: 40vw;
+  max-width: 800px;
+  max-height: 800px;
   border-radius: 1rem;
   float: left;
   display: block;
+}
+
+@media screen and (max-width: 600px) {
+  #profile-image {
+    min-width: 90vw;
+    min-height: 90vw;
+  }
 }
 
 @media screen and (min-width: 600px) {

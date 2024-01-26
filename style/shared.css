@@ -1,3 +1,9 @@
+@media screen and (min-width: 659px) {
+  :root{
+    font-size: 2vw;
+  }
+}
+
 *,
 *::before,
 *::after {

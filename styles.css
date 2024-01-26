@@ -28,7 +28,6 @@
 
 .title-container {
   min-width: 410px;
-  gap: 1rem;
   padding: 1rem;
 }
 
@@ -74,15 +73,11 @@
   font-family: Ubuntu, Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-@media screen and (max-width: 659px) {
-  .desktop-only {
-    display: none;
-  }
-}
-
-.email {
-  font-size: 2rem;
-  line-height: 2rem;
+.tag-line {
+  font-size: 0.7rem;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .quick-links {

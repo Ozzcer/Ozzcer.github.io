@@ -3,10 +3,11 @@
   max-width: 100%;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   width: 20vw;
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 160px;
+  min-height: 160px;
   height: 20vw;
 }
+
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -64,11 +65,14 @@
 
 @media not (hover: hover) {
   .no-hover {
+    bottom: 10%;
     display: block;
     position: absolute;
-    padding: 1rem;
     background-color: #3c3c3c;
     border-radius: 0.5rem;
-    width: 70%;
+    min-width: 70%;
+    max-width: 70%;
+    padding: 1rem 0;
+    border: solid 0.2rem #ffffffb6;
   }
 }

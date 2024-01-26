@@ -124,8 +124,23 @@
 #projects-container {
   display: grid;
   width: 90vw;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 19.5vw));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 19.5vw));
   grid-auto-rows: auto;
   column-gap: 1vw;
   row-gap: 1vw;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 360px) {
+  #projects-container {
+    grid-template-columns: 1fr;
+    row-gap: 2vh;
+  }
+
+  .flip-card {
+    width: 90vw;
+    height: 90vw;
+  }
+
 }

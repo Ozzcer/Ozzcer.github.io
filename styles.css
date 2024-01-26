@@ -121,15 +121,15 @@
 
 #about {
   display: flex;
-  flex-direction: row;
-  align-items: center; 
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   gap: 1rem;
 }
 
 #profile-image {
-  width: 35vw;
-  height: 35vw;
+  width: 90vw;
+  height: 90vw;
   max-width: 800px;
   max-height: 800px;
   border-radius: 1rem;
@@ -147,17 +147,18 @@
   font-size: 0.9rem;
 }
 
-@media screen and (max-width: 600px) {
-  #profile-image {
-    min-width: 90vw;
-    min-height: 90vw;
-  }
-}
-
 @media screen and (min-width: 600px) {
+  #about {
+    flex-direction: row;
+  }
+
   #about-container {
-    display: flex;
     width: 55vw;
+  }
+
+  #profile-image {
+    width: 35vw;
+    height: 35vw;
   }
 }
 

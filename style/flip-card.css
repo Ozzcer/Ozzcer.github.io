@@ -36,7 +36,7 @@
 .flip-card-front img {
   border-radius: 0.5rem;
 }
-.flip-card-back h1 {
+.flip-card-back h2 {
   width: 90%;
 }
 .flip-card-back {

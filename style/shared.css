@@ -45,3 +45,7 @@ img {
   max-block-size: 100%;
   color: white;
 }
+
+figure {
+  margin: 0;
+}

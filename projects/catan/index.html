@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Oz | Catan</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style/project.css" />
   </head>
   <body>
-    <div
-      style="
-        height: 100vh;
-        height: 100svh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      "
+    <article
+    id="project-container"
     >
-      <h1>Under Construction</h1>
-      <a href="/" style="text-decoration: underline;"><h1>Back to Home</h1></a>
-    </div>
+      <div class="col" style="display: flex; flex-direction: column">
+        <img
+          id="project-header-image"
+          src="assets/catan-gui.png"
+          alt="Example catan gui"
+        />
+        <span id="text-figure">An ongoing game of Settlers of Catan in TAG</span>
+        <ul id="tech-list">
+          <h2>Technologies:</h2>
+          <li>Java 17</li>
+          <li>
+            <a href="https://github.com/GAIGResearch/TabletopGames">
+              Tabletop Games Framework
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col" style="display: flex; flex-direction: column">
+        <h1 id="project-title">
+          Implementation of Catan and Development of an Artificial Intelligence
+          Agent for the Tabletop Games Framework
+        </h1>
+        <p>
+          For my final year project at QMUL I was fortunate to have the
+          opportunity to work on the Tabletop Games Framework alongside a cohort
+          of world-leading researchers and PhD students. I worked on the
+          development of the classic board game Settlers Of Catan (Klaus Teuber,
+          2008) and was responsible for the implementation of several core
+          features such as trading. Our implementation of Catan then served as a platform for
+          conducting research into the abilities of various different AI agents. My findings are documented in this
+          <a href="assets/final-year-project.pdf">report</a>.
+        </p>
+      </div>
+    </article>
+    <a href="/#projects" id="home-link">Back to Home</a>
   </body>
 </html>

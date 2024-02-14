@@ -1,0 +1,60 @@
+@import url('/style/shared.css');
+a {
+  text-decoration: underline;
+}
+
+#project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2.5vw;
+  margin-bottom: 1.5rem;
+}
+
+#text-figure {
+  text-align: center;
+}
+
+.col {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 920px) {
+  #project-container {
+    gap: 28px;
+  }
+
+  .col {
+    width: 45%;
+  }
+}
+
+#project-title {
+  margin-bottom: 0.5rem;
+}
+
+#tech-list {
+  width: 100%;
+  padding-left: 0;
+}
+
+#home-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: fixed;
+  bottom: 0;
+  width: 10rem;
+  height: 1.7rem;
+  border-radius: 1rem 1rem 0 0;
+  background-color: #131516;   
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: solid 2px #e8e6e3;
+  border-bottom-color: #131516;
+  text-decoration: none;
+}
